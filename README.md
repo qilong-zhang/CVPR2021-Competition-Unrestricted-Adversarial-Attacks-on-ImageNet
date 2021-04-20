@@ -4,9 +4,9 @@
   - [Dong et al. (TI-BIM)](https://arxiv.org/pdf/1904.02884.pdf) 
   - [Zou et al. (DEM)](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670562.pdf), i.e., the variant of [Xie et al. (DI-FGSM)](https://arxiv.org/abs/1803.06978)
   - [Wang et al. (Pre-gradient I-FGSM)](https://arxiv.org/pdf/2103.10609.pdf)
-  - [Ours (PI-FGSM)](https://arxiv.org/abs/2007.06765)
-  - [Ours (PI-FGSM++)](https://arxiv.org/abs/2012.15503)
-  - [Ours (SSM)](https://arxiv.org/abs/2007.06765)
+  - [Ours (PI-FGSM)](https://arxiv.org/abs/2007.06765) & [Our official repo](https://github.com/qilong-zhang/Patch-wise-iterative-attack)
+  - [Ours (PI-FGSM++)](https://arxiv.org/abs/2012.15503) & [Our official repo](https://github.com/qilong-zhang/Targeted_Patch-wise-plusplus_iterative_attack)
+  - [Ours (SSM)](https://arxiv.org/abs/2007.06765) & Our official repo
   - pre-process trick: 
     - smooth the images firstly
     - resize to 256 instead of 500 before fed into DNNs at each iteration
