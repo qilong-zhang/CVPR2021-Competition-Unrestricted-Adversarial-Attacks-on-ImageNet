@@ -1,18 +1,19 @@
-# Our solution for [CVPR-2021 AIC-VI: Unrestricted Adversarial Attacks on ImageNet](https://tianchi.aliyun.com/competition/entrance/531853/introduction)
+# Our 6th solution for [CVPR-2021 AIC-VI: Unrestricted Adversarial Attacks on ImageNet](https://tianchi.aliyun.com/competition/entrance/531853/introduction)
 
 - Our method (Transfer-based attacks)：
   - [Dong et al. (TI-BIM)](https://arxiv.org/pdf/1904.02884.pdf) 
   - [Zou et al. (DEM)](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670562.pdf), i.e., the variant of [Xie et al. (DI-FGSM)](https://arxiv.org/abs/1803.06978)
   - [Wang et al. (Pre-gradient I-FGSM)](https://arxiv.org/pdf/2103.10609.pdf)
-  - [Ours (PI-FGSM)](https://arxiv.org/abs/2007.06765) & [Our official repo](https://github.com/qilong-zhang/Patch-wise-iterative-attack)
-  - [Ours (PI-FGSM++)](https://arxiv.org/abs/2012.15503) & [Our official repo](https://github.com/qilong-zhang/Targeted_Patch-wise-plusplus_iterative_attack)
-  - [Ours (SSM)](https://arxiv.org/abs/2007.06765) & Our official repo
+  - Ours works
+    - [PI-FGSM](https://arxiv.org/abs/2007.06765)
+    - [PI-FGSM++](https://arxiv.org/abs/2012.15503)
+    - [SSM](https://arxiv.org/abs/2007.06765)
   - pre-process trick: 
     - smooth the images firstly
     - resize to 256 instead of 500 before fed into DNNs at each iteration
 - Setting
   - <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_{\infty}=20" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_{\infty}=20" title="\ell_{\infty}=20" /></a>
-  - Iteration T=40
+  - Iteration $T=40$
   - Step size: ~ 0.6
   - Batch size = 2
 - Substitute models:
@@ -32,7 +33,7 @@
   - scipy 1.5.4
   - timm 0.4.5
 
-- Download the dataset from [here](https://tianchi.aliyun.com/competition/entrance/531853/information) (or select one of the following datasets)
+- Download the dataset from [here](https://tianchi.aliyun.com/competition/entrance/531853/information) (select one of the following datasets)
 
   - Round 1: https://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531853/imagenet_round1_210122.zip
   - Round 2: https://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531853/imagenet_round2_210325.zip
@@ -55,7 +56,7 @@
 
 ## Result
 
-![result2](https://github.com/qilong-zhang/CVPR2021-Competition-Unrestricted-Adversarial-Attacks-on-ImageNet/blob/main/result.png)
+![result2](https://github.com/qilong-zhang/patch-wise-iterative-attack/blob/master/readme_img/result.png)
 
 ## Reference
 
@@ -72,8 +73,6 @@
 [6] Lianli Gao, Qilong Zhang, Jingkuan Song and Heng Tao Shen: [Patch-wise++ Perturbation for Adversarial Targeted Attacks](https://arxiv.org/abs/2012.15503), ArXiv 2020
 
 [7] Lianli Gao, Qilong Zhang, Xiaosu Zhu, Jingkuan Song and Heng Tao Shen: [Staircase Sign Method for Boosting Adversarial Attacks](https://arxiv.org/abs/2012.15503), ArXiv 2021
-
-
 
 
 
