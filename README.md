@@ -21,7 +21,6 @@
 - Substitute models:
   - [DenseNet-121](https://arxiv.org/abs/1608.06993), [DenseNet-169](https://arxiv.org/abs/1608.06993), [ResNet-50](https://arxiv.org/abs/1512.03385), [ResNet-101](https://arxiv.org/abs/1512.03385), [VGG-19](https://arxiv.org/abs/1409.1556), [EfficientNet-b5](https://arxiv.org/abs/1905.11946)
 - The cost of GPU memory: 12G on Titan xp (12G)
-- Training time: ~40 hours (If you have more GPU, the training time can be significantly reduced)
 
 ## Implementation
 - Requirement
