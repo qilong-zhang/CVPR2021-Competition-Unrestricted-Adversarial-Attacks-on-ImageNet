@@ -5,9 +5,9 @@
   - Zou et al. (DEM) [[3]](#reference), i.e., the variant of Xie et al. (DI-FGSM) [[2]](#reference)
   - Wang et al. (Pre-gradient I-FGSM) [[4]](#reference)
   - Ours works
-    - PI-FGSM [[5]](#reference)
-    - PI-FGSM++ [[6]](#reference)
-    - SSM [[7]](#reference)
+    - PI-FGSM [[5]](#reference) & Our official [repo](https://github.com/qilong-zhang/Patch-wise-iterative-attack)
+    - PI-FGSM++ [[6]](#reference) & Our official [repo](https://github.com/qilong-zhang/Targeted_Patch-wise-plusplus_iterative_attack)
+    - SSM [[7]](#reference) & Our official [repo]
   - pre-process trick: 
     - smooth the images firstly
     - resize to 256 instead of 500 before fed into DNNs at each iteration
