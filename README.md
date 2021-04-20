@@ -1,13 +1,13 @@
 # Our 6th solution for [CVPR-2021 AIC-VI: Unrestricted Adversarial Attacks on ImageNet](https://tianchi.aliyun.com/competition/entrance/531853/introduction)
 
 - Our method (Transfer-based attacks)：
-  - [Dong et al. (TI-BIM)](https://arxiv.org/pdf/1904.02884.pdf) 
-  - [Zou et al. (DEM)](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670562.pdf), i.e., the variant of [Xie et al. (DI-FGSM)](https://arxiv.org/abs/1803.06978)
-  - [Wang et al. (Pre-gradient I-FGSM)](https://arxiv.org/pdf/2103.10609.pdf)
+  - [Dong et al. (TI-BIM) [1]](https://arxiv.org/pdf/1904.02884.pdf) 
+  - [Zou et al. (DEM) [3]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670562.pdf), i.e., the variant of [Xie et al. (DI-FGSM) [2]](https://arxiv.org/abs/1803.06978)
+  - [Wang et al. (Pre-gradient I-FGSM) [4]](https://arxiv.org/pdf/2103.10609.pdf)
   - Ours works
-    - [PI-FGSM](https://arxiv.org/abs/2007.06765)
-    - [PI-FGSM++](https://arxiv.org/abs/2012.15503)
-    - [SSM](https://arxiv.org/abs/2007.06765)
+    - [PI-FGSM [5]](https://arxiv.org/abs/2007.06765)
+    - [PI-FGSM++ [6]](https://arxiv.org/abs/2012.15503)
+    - [SSM [7]](https://arxiv.org/abs/2007.06765)
   - pre-process trick: 
     - smooth the images firstly
     - resize to 256 instead of 500 before fed into DNNs at each iteration
@@ -33,7 +33,7 @@
   - scipy 1.5.4
   - timm 0.4.5
 
-- Download the dataset from [here](https://tianchi.aliyun.com/competition/entrance/531853/information) (select one of the following datasets)
+- Download the dataset from [here](https://tianchi.aliyun.com/competition/entrance/531853/information) (or select one of the following datasets)
 
   - Round 1: https://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531853/imagenet_round1_210122.zip
   - Round 2: https://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531853/imagenet_round2_210325.zip
