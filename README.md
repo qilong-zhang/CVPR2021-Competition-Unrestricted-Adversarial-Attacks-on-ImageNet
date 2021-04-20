@@ -7,10 +7,12 @@
   - Ours works
     - PI-FGSM [[5]](#reference) & Our official [repo](https://github.com/qilong-zhang/Patch-wise-iterative-attack)
     - PI-FGSM++ [[6]](#reference) & Our official [repo](https://github.com/qilong-zhang/Targeted_Patch-wise-plusplus_iterative_attack)
-    - SSM [[7]](#reference) & Our official [repo]
+    - **Staircase sign method (SSM)** [[7]](#reference) & Our official [repo]
   - pre-process trick: 
     - smooth the images firstly
     - resize to 256 instead of 500 before fed into DNNs at each iteration
+- Discussion
+  - By replacing the Sign-method of DI-TI-FGSM with our SSM, we effectively increase the score from ~8 to ~22 (full score is 100) 
 - Setting
   - <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_{\infty}=20" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_{\infty}=20" title="\ell_{\infty}=20" /></a>
   - Iteration $T=40$
@@ -22,7 +24,6 @@
 - Training time: ~40 hours (If you have more GPU, the training time can be significantly reduced)
 
 ## Implementation
-
 - Requirement
   - Python 3.7
   - Pytorch 1.8.0
