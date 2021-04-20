@@ -7,7 +7,7 @@
   - Ours works
     - PI-FGSM [[5]](#reference) & Our official [repo](https://github.com/qilong-zhang/Patch-wise-iterative-attack)
     - PI-FGSM++ [[6]](#reference) & Our official [repo](https://github.com/qilong-zhang/Targeted_Patch-wise-plusplus_iterative_attack)
-    - 🚀**Staircase sign method (SSM)** [[7]](#reference) & Our official [repo]
+    - 🚀**Staircase sign method (SSM)** [[7]](#reference) & Our official [repo](https://github.com/qilong-zhang/Staircase-sign-method)
       - By replacing the Sign method of DI-TI-FGSM with our SSM <a href="https://www.codecogs.com/eqnedit.php?latex=(\ell_{\infty}=8)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(\ell_{\infty}=8)" title="(\ell_{\infty}=8)" /></a>, we significantly increase the score from ~8 to ~22 (full score is 100)  
   - Pre-process tricks: 
     - smooth the images firstly
