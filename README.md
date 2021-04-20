@@ -17,7 +17,6 @@
   - <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_{\infty}=20" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_{\infty}=20" title="\ell_{\infty}=20" /></a>
   - Iteration T=40
   - Step size: ~ 0.6
-  - Batch size = 2
 - Substitute models:
   - [DenseNet-121](https://arxiv.org/abs/1608.06993), [DenseNet-169](https://arxiv.org/abs/1608.06993), [ResNet-50](https://arxiv.org/abs/1512.03385), [ResNet-101](https://arxiv.org/abs/1512.03385), [VGG-19](https://arxiv.org/abs/1409.1556), [EfficientNet-b5](https://arxiv.org/abs/1905.11946)
 - The cost of GPU memory: 12G on Titan xp (12G)
