@@ -56,7 +56,7 @@
 
 ## Result
 
-![result2](https://github.com/qilong-zhang/patch-wise-iterative-attack/blob/master/readme_img/result.png)
+![result2](https://github.com/qilong-zhang/CVPR2021-Competition-Unrestricted-Adversarial-Attacks-on-ImageNet/blob/main/result.png)
 
 ## Reference
 
