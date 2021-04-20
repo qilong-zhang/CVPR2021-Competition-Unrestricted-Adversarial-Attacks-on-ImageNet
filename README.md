@@ -1,6 +1,6 @@
 # Our Team (green hand) 6th Solution for [CVPR-2021 AIC-VI: Unrestricted Adversarial Attacks on ImageNet](https://tianchi.aliyun.com/competition/entrance/531853/introduction?lang=en-us)
 
-- Our method (Transfer-based attacks):https://arxiv.org/pdf/1904.02884.pdf
+- Our method (Transfer-based attacks):
   - Dong et al. (TI-BIM) [[1]](#reference)
   - Zou et al. (DEM) [[3]](#reference), i.e., the variant of Xie et al. (DI-FGSM) [[2]](#reference)
   - Wang et al. (Pre-gradient I-FGSM) [[4]](#reference)
