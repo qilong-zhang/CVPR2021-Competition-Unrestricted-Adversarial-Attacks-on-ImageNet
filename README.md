@@ -11,8 +11,8 @@
     - smooth the images firstly
     - resize to 256 instead of 500 before fed into DNNs at each iteration
 - Setting
-  - $\ell_\inf=20$
-  - Iteration $T=40$
+  - <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_{\infty}=20" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_{\infty}=20" title="\ell_{\infty}=20" /></a>
+  - Iteration T=40
   - Step size: ~ 0.6
   - Batch size = 2
 - Substitute models:
