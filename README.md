@@ -1,6 +1,6 @@
 # Our 6th solution for [CVPR-2021 AIC-VI: Unrestricted Adversarial Attacks on ImageNet]
 
-- 🚀 Our method (Transfer-based attacks):https://arxiv.org/pdf/1904.02884.pdf
+- Our method (Transfer-based attacks):https://arxiv.org/pdf/1904.02884.pdf
   - Dong et al. (TI-BIM) [[1]](#reference)
   - Zou et al. (DEM) [[3]](#reference), i.e., the variant of Xie et al. (DI-FGSM) [[2]](#reference)
   - Wang et al. (Pre-gradient I-FGSM) [[4]](#reference)
@@ -8,7 +8,7 @@
     - PI-FGSM [[5]](#reference) & Our official [repo](https://github.com/qilong-zhang/Patch-wise-iterative-attack)
     - PI-FGSM++ [[6]](#reference) & Our official [repo](https://github.com/qilong-zhang/Targeted_Patch-wise-plusplus_iterative_attack)
     - **Staircase sign method (SSM)** [[7]](#reference) & Our official [repo]
-      - By replacing the Sign method of DI-TI-FGSM with our SSM <a href="https://www.codecogs.com/eqnedit.php?latex=(\ell_{\infty}=8)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(\ell_{\infty}=8)" title="(\ell_{\infty}=8)" /></a>, we effectively increase the score from ~8 to ~22 (full score is 100)  
+      - By replacing the Sign method of DI-TI-FGSM with our SSM <a href="https://www.codecogs.com/eqnedit.php?latex=(\ell_{\infty}=8)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(\ell_{\infty}=8)" title="(\ell_{\infty}=8)" /></a>, we effectively increase the score from ~8 to ~22🚀 (full score is 100)  
   - Pre-process tricks: 
     - smooth the images firstly
     - resize to 256 instead of 500 before fed into DNNs at each iteration
