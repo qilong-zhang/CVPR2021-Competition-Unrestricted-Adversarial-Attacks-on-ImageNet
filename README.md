@@ -39,12 +39,6 @@
 
 - Unzip the downloaded dataset zip, and put 5K images into `"input_dir/images/"` file.
 
-- Change the path into `code/`
-
-  ```python
-  cd code/
-  ```
-
 - Then run the code
 
   ```python
