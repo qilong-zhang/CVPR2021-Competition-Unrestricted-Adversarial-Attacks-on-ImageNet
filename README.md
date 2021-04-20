@@ -24,7 +24,6 @@
 ## Implementation
 
 - Requirement
-
   - Python 3.7
   - Pytorch 1.8.0
   - torchvision 0.9.0
