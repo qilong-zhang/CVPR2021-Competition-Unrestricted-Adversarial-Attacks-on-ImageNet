@@ -61,7 +61,7 @@
 
 [1] Yinpeng Dong, Tianyu Pang, Hang Su and Jun Zhu: [Evading defenses to transferable adversarial examples by translation-invariant attacks](https://arxiv.org/pdf/1904.02884.pdf), CVPR 2019
 
-[2] Cihang Xie, Zhishuai Zhang, Yuyin Zhou, Song Bai, Jianyu Wang, Zhou Ren and Alan L Yuille: [Improving Transferability of Adversarial Examples with Input Diversity](https://arxiv.org/abs/1803.06978) CVPR 2019
+[2] Cihang Xie, Zhishuai Zhang, Yuyin Zhou, Song Bai, Jianyu Wang, Zhou Ren and Alan L Yuille: [Improving Transferability of Adversarial Examples with Input Diversity](https://arxiv.org/abs/1803.06978), CVPR 2019
 
 [3] Junhua Zou, Zhisong Pan, Junyang Qiu, Xin Liu, Ting Rui and Wei Lin: [Improving the Transferability of Adversarial Examples with Resized-Diverse-Inputs,Diversity-Ensemble and Region Fitting](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670562.pdf), ECCV 2020
 
