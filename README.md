@@ -12,8 +12,7 @@
   - pre-process trick: 
     - smooth the images firstly
     - resize to 256 instead of 500 before fed into DNNs at each iteration
-- Discussion
-  - 
+
 - Setting
   - <a href="https://www.codecogs.com/eqnedit.php?latex=\ell_{\infty}=20" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\ell_{\infty}=20" title="\ell_{\infty}=20" /></a>
   - Iteration $T=40$
