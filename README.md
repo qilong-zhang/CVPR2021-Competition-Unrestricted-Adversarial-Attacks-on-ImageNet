@@ -2,12 +2,12 @@
 
 - Our method (Transfer-based attacks):https://arxiv.org/pdf/1904.02884.pdf
   - Dong et al. (TI-BIM) [[1]](#reference)
-  - [Zou et al. (DEM)](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670562.pdf), i.e., the variant of [Xie et al. (DI-FGSM)](https://arxiv.org/abs/1803.06978)
-  - [Wang et al. (Pre-gradient I-FGSM)](https://arxiv.org/pdf/2103.10609.pdf)
+  - Zou et al. (DEM) [[3]](#reference), i.e., the variant of Xie et al. (DI-FGSM) [[2]](#reference)
+  - Wang et al. (Pre-gradient I-FGSM) [[4]](#reference)
   - Ours works
-    - [PI-FGSM](https://arxiv.org/abs/2007.06765)
-    - [PI-FGSM++](https://arxiv.org/abs/2012.15503)
-    - [SSM](https://arxiv.org/abs/2007.06765)
+    - PI-FGSM [[5]](#reference)
+    - PI-FGSM++ [[6]](#reference)
+    - SSM [[7]](#reference)
   - pre-process trick: 
     - smooth the images firstly
     - resize to 256 instead of 500 before fed into DNNs at each iteration
