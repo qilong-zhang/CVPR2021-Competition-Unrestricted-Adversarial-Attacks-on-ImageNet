@@ -32,6 +32,7 @@
   - matplotlib 3.3.4
   - scipy 1.5.4
   - timm 0.4.5
+  - tqdm 4.43.0
 
 - Download the dataset from [here](https://tianchi.aliyun.com/competition/entrance/531853/information) (or select one of the following datasets)
 
