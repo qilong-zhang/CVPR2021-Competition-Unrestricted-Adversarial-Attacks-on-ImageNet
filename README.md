@@ -32,7 +32,7 @@
   - scipy 1.5.4
   - timm 0.4.5
 
-- Download the dataset from [here](https://tianchi.aliyun.com/competition/entrance/531853/information) (select one of the following datasets)
+- Download the dataset from [here](https://tianchi.aliyun.com/competition/entrance/531853/information) (or select one of the following datasets)
 
   - Round 1: https://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531853/imagenet_round1_210122.zip
   - Round 2: https://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531853/imagenet_round2_210325.zip
