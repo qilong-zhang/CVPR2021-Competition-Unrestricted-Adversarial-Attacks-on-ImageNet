@@ -65,7 +65,7 @@
 
 [6] Lianli Gao, Qilong Zhang, Jingkuan Song and Heng Tao Shen: [Patch-wise++ Perturbation for Adversarial Targeted Attacks](https://arxiv.org/abs/2012.15503), ArXiv 2020
 
-[7] Lianli Gao, Qilong Zhang, Xiaosu Zhu, Jingkuan Song and Heng Tao Shen: [Staircase Sign Method for Boosting Adversarial Attacks](https://arxiv.org/abs/2012.15503), ArXiv 2021
+[7] Lianli Gao, Qilong Zhang, Xiaosu Zhu, Jingkuan Song and Heng Tao Shen: [Staircase Sign Method for Boosting Adversarial Attacks](https://arxiv.org/abs/2104.09722), ArXiv 2021
 
 
 
