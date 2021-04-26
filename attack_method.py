@@ -104,7 +104,3 @@ def torch_staircase_sign(noise, n):
     return noise_staircase
 
 
-if __name__ == '__main__':
-    a = torch.tensor(np.arange(16).reshape(2,2,4), dtype=torch.float32) - 8
-    print(a)
-    print(torch_staircase_sign(a, 25))
