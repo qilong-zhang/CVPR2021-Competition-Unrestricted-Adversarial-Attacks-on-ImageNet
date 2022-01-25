@@ -10,6 +10,7 @@ import argparse
 import numpy as np
 import torch.nn.functional as F
 import torchvision.transforms as T
+from torch.autograd import Variable as V
 import torchvision.models as models
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
